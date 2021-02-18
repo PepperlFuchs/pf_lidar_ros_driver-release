@@ -23,5 +23,5 @@ tracks:
     release_tag: :{version}
     ros_distro: melodic
     vcs_type: git
-    vcs_uri: https://github.com/PepperlFuchs/ROS_driver.git
+    vcs_uri: https://github.com/PepperlFuchs/pf_lidar_ros_driver.git
     version: :{auto}
