@@ -1,0 +1,12 @@
+Source: ros-noetic-pf-driver
+Section: misc
+Priority: optional
+Maintainer: Harsh Deshpande <harshavardhan.deshpande@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), libcurlpp-dev, libjsoncpp-dev, libpcl-dev, ros-noetic-catkin, ros-noetic-dynamic-reconfigure, ros-noetic-laser-geometry, ros-noetic-message-generation, ros-noetic-pcl-conversions, ros-noetic-pcl-ros, ros-noetic-roscpp, ros-noetic-roscpp-serialization, ros-noetic-roslint, ros-noetic-rosunit <!nocheck>, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf
+Homepage: https://github.com/PepperlFuchs/pf_lidar_ros_driver
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pf-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcurlpp-dev, libjsoncpp-dev, libpcl-apps1.9, libpcl-common1.9, libpcl-features1.9, libpcl-filters1.9, libpcl-io1.9, libpcl-kdtree1.9, libpcl-keypoints1.9, libpcl-ml1.9, libpcl-octree1.9, libpcl-outofcore1.9, libpcl-people1.9, libpcl-recognition1.9, libpcl-registration1.9, libpcl-sample-consensus1.9, libpcl-search1.9, libpcl-segmentation1.9, libpcl-stereo1.9, libpcl-surface1.9, libpcl-tracking1.9, libpcl-visualization1.9, ros-noetic-dynamic-reconfigure, ros-noetic-laser-geometry, ros-noetic-message-runtime, ros-noetic-pcl-conversions, ros-noetic-pcl-ros, ros-noetic-pf-description, ros-noetic-roscpp, ros-noetic-roscpp-serialization, ros-noetic-rviz, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf
+Description: The Pepperl+Fuchs LiDAR package
